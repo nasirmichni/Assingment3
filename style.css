@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400;1,500&family=Imprima&family=Poppins:ital,wght@0,200;0,400;0,500;1,200;1,300;1,600&family=Raleway:wght@200;300&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: thin;
+}
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+p {
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.first {
+    padding: 80px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.first img {
+    width: 230px;
+    z-index: 999;
+}
+
+.first Button {
+    border: 0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 22px;
+    background-color: rgb(0, 229, 255);
+    margin-top: 20px;
+}
+
+.second {
+    width: 100vw;
+    max-width: 100%;
+    top: 75%;
+    height: fit-content;
+    padding: 200px;
+    position: absolute;
+    background: url('./bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 100px;
+}
+
+.second p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.second h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.third {
+    margin-top: 400px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.third p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.third Button {
+    border: 0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 22px;
+    background-color: rgb(0, 229, 255);
+    margin-top: 20px;
+}
+
+.fourth {
+    background: url('./bg.jpg');
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fourth h1 {
+    text-align: center;
+    color: white;
+}
+
+.fourth p {
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.borders {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px dotted white;
+}
+.fifth{  
+    background: url('./bg.jpg');
+    padding: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
